@@ -1,4 +1,4 @@
-(function () {
+
     //load all of the script after DOM is created
     // Use this when you are targeting html elements and the script is in the head
     window.onload = function () {
@@ -51,4 +51,3 @@
             bookTItle[i].addEventListener('click',changeColor);
         }
     }
-})();
